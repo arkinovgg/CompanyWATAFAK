@@ -1,9 +1,10 @@
 body {
     font-family: sans-serif;
+    margin: 0px;
 }
 
 .what {
-    width: 160px;
+    width: 125px;
 }
 
 .pWhat {
@@ -12,7 +13,7 @@ body {
 
 header h1 {
     text-align: center;
-    font-size: 38px;
+    font-size: 52px;
 }
 
 header {
@@ -22,8 +23,8 @@ header {
 
 nav {
     background-color: #FF9900;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 20px;
+    padding-bottom: 25px;
     text-align: center;
     border: 2px solid black;
 }
@@ -32,13 +33,14 @@ nav a {
     margin-left: 25px;
     border: 1px solid black;
     border-radius: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 9px;
     text-decoration: none;
     background-color: black;
     color: #FF9900;
+    font-size: 20px;
 }
 
 .AboutUs {
@@ -46,32 +48,28 @@ nav a {
     color: black
 }
 
-.CompanyWatafakText {
+.CompanyWatafakPng {
     text-align: center;
 }
 
-.CompanyWatafakPng {
-    width: 300px;
-}
-
 .About {
-    font-size: 30px;
+    font-size: 34px;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .AboutUsText {
-    margin-left: 10px;
-    font-size: 18px;
+    margin-left: 25px;
+    font-size: 22px;
 }
 
 .SmilePNG {
-    margin-left: 55px;
+    margin-left: 175px;
     margin-bottom: 20px;
 }
 
 .trebovania {
-    font-size: 30px;
+    font-size: 34px;
 }
 
 .Treb {
@@ -79,8 +77,8 @@ nav a {
     margin-bottom: 0px;
     margin-right: 10px;
     text-align: right;
-    font-size: 18px;
-    padding-right: 10px;
+    font-size: 22px;
+    padding-right: 25px;
     padding-top: 1px;
     padding-bottom: 1px;
 }
@@ -91,13 +89,14 @@ nav a {
 }
 
 .garantia {
-    font-size: 30px;
+    font-size: 34px;
     text-align: center;
 }
 
 .garantiaTEXT {
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
+    margin-bottom: 60px;
 }
 
 footer {
@@ -106,4 +105,71 @@ footer {
     padding-bottom: 1px;
     text-align: center;
     border: 2px solid black;
+    font-size: 20px;
+}
+
+.reg {
+    background-color: #F90;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    text-align: center;
+    color: white;
+    font-size: 52px;
+}
+
+.registerPNGp {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.name {
+    background-color: darkgrey;
+    width: 370px;
+    border-radius: 87px;
+}
+
+.email {
+    background-color: darkgrey;
+    width: 370px;
+    border-radius: 87px;
+}
+
+.password {
+    background-color: darkgrey;
+    width: 370px;
+    border-radius: 87px;
+}
+
+.repassword {
+    background-color: darkgrey;
+    width: 370px;
+    border-radius: 87px;
+}
+
+.inputs {
+    background-color: #7DFF5C;
+    border: 2px solid black;
+    border-radius: 121px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 35px;
+    padding-bottom: 60px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.registerButton {
+    font-size: 30px;
+    background-color: #F90;
+    border: 2px solid black;
+    border-radius: 59px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+}
+
+.regbut {
+    text-align: center;
 }
