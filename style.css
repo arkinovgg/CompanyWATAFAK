@@ -64,8 +64,10 @@ nav a {
 }
 
 .SmilePNG {
-    margin-left: 175px;
-    margin-bottom: 20px;
+  float: right;
+position: relative;
+top: 100px;
+right: 150px;
 }
 
 .trebovania {
@@ -81,11 +83,14 @@ nav a {
     padding-right: 25px;
     padding-top: 1px;
     padding-bottom: 1px;
+    float: left;
+    width: 100%;
 }
 
 .sadsmilePNG {
     text-align: center;
     margin-top: 40px;
+   
 }
 
 .garantia {
@@ -106,6 +111,8 @@ footer {
     text-align: center;
     border: 2px solid black;
     font-size: 20px;
+    float: left;
+    width: 100%;
 }
 
 .reg {
@@ -173,3 +180,20 @@ footer {
 .regbut {
     text-align: center;
 }
+
+.divAbout{
+    float: left;
+    width: 40%;
+    padding: 100px 0px;
+}
+
+.divGarant{
+    float: left;
+    width: 100%;
+}
+
+.divReg{
+    float: left;
+    width: 100%;
+}
+
